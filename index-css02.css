@@ -1,3 +1,23 @@
+body{
+    height: 100vh;
+    /* short hands backgound
+        backgound: color > image > position > repeat > [size] > attachment;
+
+        o size esta entre colchetes por conta que na ddocumentação fala que ele funciona mas se colocar alguma das propriedades do backgound-size ele nao funciona,  então o recomendado é usar o backgound-size separadamente
+    */
+
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
+    background-size: cover;
+
+    /*
+    background-image: url('https://images2.alphacoders.com/529/52980.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    */
+}
+
 .quadrado{
     border: solid black 2px;
     width: 300px;
@@ -15,5 +35,24 @@
 }
 
  div#q3{
-    background-image: url(imagens/wallpaper002 .jpg);
+    background-image: url(imagens/pattern001.png);
+}
+
+.bloco{
+    height: 200px;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 10px;
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
+div#q4{
+    background-position: right top;
+}
+div#q5{
+    background-position: center center;
+}
+div#q6{
+    background-position: left bottom;
 }
