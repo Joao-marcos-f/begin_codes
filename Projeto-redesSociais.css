@@ -26,10 +26,29 @@ section#phone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background:  url(pacote-d013/imagens/frame-iphone.png) no-repeat fixed;
+    background: url(pacote-d013/imagens/frame-iphone.png) no-repeat fixed;
 }
 section#social{
-    height: 500px;
-    width: 600px;
-    background-color: rgba(192, 36, 36, 0.212);
+    text-align:right;
+}
+iframe#tela{
+    top:80px;
+    left: 22px;
+    position: relative;
+    width: 267px;
+    height: 471px;
+}
+section#social img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+section#social img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.41);
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.247);
+    transition: transform 0.3s, border 0.2s;
 }
