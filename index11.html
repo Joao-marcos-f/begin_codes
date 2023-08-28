@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexendo com Iframe</title>
+    <style>
+        iframe{
+            width: 600px;
+            height: 500px;
+        }
+        #centro{
+            display: block;
+            margin: auto;
+        }
+        iframe#pagina{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>testando o uso de Iframe</h1>
+    </header>
+    <main>
+        <p>
+            acessando o site do <iframe src="https://cursoemvideo.com" frameborder="2"></iframe> para aprender a programar 
+        </p>
+        <p>
+            olha meu projeto cordel <iframe src="https://joao-marcos-f.github.io/begin_codes/projeto-cordel.html" frameborder="0"></iframe>
+        </p>
+
+        <p>isso é um teste</p>
+        <iframe src="index01.html" frameborder="0" id="centro"></iframe>
+        <br>
+        <br>
+        <p>escolha uma das opções abaixo</p>
+        <ul>
+            <li><a href="index02.html" target="paginas">primeira opção</a></li>
+            <li><a href="index03.html" target="paginas">segunda opção</a></li>
+            <li><a href="index04.html" target="paginas">terceira opção</a></li>
+        </ul>
+        <iframe id="pagina" name="paginas" srcdoc=" <img src='images/espaco.jpg' alt='imagem do espaço sideral'>" frameborder="0"></iframe>
+    </main>
+</body>
+</html>
