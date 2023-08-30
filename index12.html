@@ -9,15 +9,23 @@
 <body>
     <header>
         <h1>meu primeiro formulario</h1>
-        <form action="cadastro.php" autocomplete="off">
+    </header>
+    <main>
+        <form action="cadastro.php" autocomplete="off" method="post">
             <h1>cadastro</h1>
-            
-            <label for="inome">
-                <p>nome:
+
+                <p>
+                    <label for="inome">Nome: </label>
                     <input type="text" name="nome" id="inome">
                 </p>
-            </label>
+                <p>
+                    <label for="isobrenome">Sobrenome: </label>
+                    <input type="text" name="sobrenome" id="isobrenome">
+                </p>
+            <p>
+                <input type="button" value="enviar">
+            </p>
         </form>
-    </header>
+    </main>
 </body>
 </html>
