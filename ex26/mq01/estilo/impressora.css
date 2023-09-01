@@ -1,0 +1,19 @@
+/* estilo para impressoras*/
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+menu{
+    display: none;
+}
+article::after{
+    content: 'esse artigo foi impresso atraves do site www.github.com/joao-marcos-f';
+}
+article{
+    width: 100%;
+}
