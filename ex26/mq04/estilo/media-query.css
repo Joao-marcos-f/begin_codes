@@ -16,7 +16,7 @@ laptops e desktops grandes: 1200px ou mais
         font-family: 'Courier New', Courier, monospace;
     }
     main{
-        border: 2px solid black;
+        border: 2px solid black ;
     }
     main h1{
         text-shadow: none;
